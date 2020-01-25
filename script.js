@@ -1,6 +1,6 @@
-medeelel();
-medeelel();
-medeelel();
+//Хувьсагч болон Функцаа тодорхойлж байна
+var name = "Naraa";
+var avgScore = "100";
 
 function medeelel() {
   console.log("Энэ бол функц");
@@ -8,11 +8,6 @@ function medeelel() {
     "Дахин дахин ашиглагдах кодыг функц болгон тусд нь бичдэг бөгөөд функцээ дуудах замаар үр ашигтай кодлох арга юм."
   );
 }
-
-func("Mandakhbayar", 99);
-func("Nyamtaivan", 100);
-func("Khishigbayar", 77);
-func("Naruto", 55);
 
 function func(name, avgScore) {
   //switch, case ашиглан бичих
@@ -33,3 +28,15 @@ function func(name, avgScore) {
       break;
   }
 }
+
+//Ажиллуулах хэсэг
+var a = 0;
+if ( a < 30 ){
+  console.log("-");
+}
+console.log("Ажиллаж байна :) ");
+medeelel();
+func("Mandakhbayar", 99);
+func("Nyamtaivan", 100);
+func("Khishigbayar", 77);
+func("Naruto", 55);
