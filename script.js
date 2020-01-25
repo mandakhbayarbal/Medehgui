@@ -30,13 +30,12 @@ function func(name, avgScore) {
 }
 
 //Ажиллуулах хэсэг
-var a = 0;
-if ( a < 30 ){
-  console.log("-");
-}
+console.log("-----------------------------------------------------------");
 console.log("Ажиллаж байна :) ");
 medeelel();
+console.log("-----------------------------------------------------------");
 func("Mandakhbayar", 99);
 func("Nyamtaivan", 100);
 func("Khishigbayar", 77);
 func("Naruto", 55);
+console.log("-----------------------------------------------------------");
